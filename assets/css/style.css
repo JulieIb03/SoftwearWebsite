@@ -57,12 +57,12 @@ body {
   line-height: 32px;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
-  --base-color: #838694;
-  --heading-color: #1b1f2e;
-  --primary-color: #30f0b6;
-  --secondary-color: #674df3;
+  --base-color: #EBDECC;
+  --heading-color: #22201F;
+  --primary-color: #FC9BA5;
+  --secondary-color: #FF064E;
   --lighter-color: #f7f7f9;
-  --border-color: rgba(21, 16, 31, 0.1); }
+  --border-color: rgba(0, 0, 0, 0.1); }
 
 a {
   color: var(--base-color);
@@ -883,7 +883,7 @@ a.theme-btn {
 
 /* Color + Background */
 .bgc-black {
-  background-color: #0f1425; }
+  background-color: #000000; }
 
 .bgc-gray {
   background-color: var(--heading-color); }
@@ -1430,10 +1430,6 @@ h6, .h6 {
 .pb-95,
 .py-95 {
   padding-bottom: 95px; }
-
-.pb-100,
-.py-100 {
-  padding-bottom: 100px; }
 
 .pb-105,
 .py-105 {
@@ -6509,7 +6505,7 @@ h6, .h6 {
     font-size: 16px;
     font-weight: 500;
     color: var(--base-color);
-    content: '/Per month'; }
+    content: 'COP'; }
   .pricing-plan-item .theme-btn {
     width: 100%;
     margin-top: 25px;
