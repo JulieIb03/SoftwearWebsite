@@ -785,7 +785,7 @@ a.theme-btn.style-four:not(:hover):after {
 .preloader .custom-loader {
   width: 55px;
   aspect-ratio: 1;
-  --c: conic-gradient(from -90deg, #30f0b6 90deg, #0000 0);
+  --c: conic-gradient(from -90deg, #f46d6d 90deg, #0000 0);
   background: var(--c), var(--c);
   background-size: 40% 40%;
   -webkit-animation: preloader 1s infinite alternate;
