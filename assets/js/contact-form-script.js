@@ -7,7 +7,7 @@
         if (event.isDefaultPrevented()) {
             // handle the invalid form...
             formError();
-            submitMSG(false, "Did you fill in the form properly?");
+            submitMSG(false, "Llenaste el formulario correctamente?");
         } else {
             // everything looks good!
             event.preventDefault();

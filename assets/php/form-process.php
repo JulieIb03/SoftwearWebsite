@@ -4,14 +4,14 @@ $errorMSG = "";
 
 // NAME
 if (empty($_POST["name"])) {
-    $errorMSG = "Name is required ";
+    $errorMSG = "Nombre es obligatorio ";
 } else {
     $name = $_POST["name"];
 }
 
 // EMAIL
 if (empty($_POST["email"])) {
-    $errorMSG .= "Email is required ";
+    $errorMSG .= "Email es obligatorio ";
 } else {
     $email = $_POST["email"];
 }
@@ -28,7 +28,7 @@ if (isset($_POST["subject"])) {
 
 // MESSAGE
 if (empty($_POST["message"])) {
-    $errorMSG .= "Message is required ";
+    $errorMSG .= "Mensaje es obligatorio ";
 } else {
     $message = $_POST["message"];
 }

@@ -1647,11 +1647,6 @@ h6,
   padding-top: 125px;
 }
 
-.pt-130,
-.py-130 {
-  padding-top: 130px;
-}
-
 .pt-135,
 .py-135 {
   padding-top: 135px;
@@ -4550,7 +4545,6 @@ h6,
   opacity: 1;
   font-weight: 600;
   position: relative;
-  color: #ffffff;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   -webkit-transition: all 500ms ease;
