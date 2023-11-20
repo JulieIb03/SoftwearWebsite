@@ -4550,7 +4550,7 @@ h6,
   opacity: 1;
   font-weight: 600;
   position: relative;
-  color: var(--heading-color);
+  color: #ffffff;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   -webkit-transition: all 500ms ease;
